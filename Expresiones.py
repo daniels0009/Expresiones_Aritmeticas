@@ -26,5 +26,5 @@ def construirArbolAnalisis(expresionAgrupada):
             raise ValueError
     return arbolExpresion
 
-MiArbol= construir['(', '20','/','2',') '+', '(', 100', '*', '200' ,')',')')']
+MiArbol= construir "['(', '20','/','2',') '+', '(', 100', '*', '200' ,')',')')']"
 print(MiArbol) 
